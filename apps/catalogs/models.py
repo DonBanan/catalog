@@ -9,7 +9,7 @@ class Category(models.Model):
     order = models.PositiveIntegerField(_('Order'), default=1)
 
     class Meta:
-        ordering = ['name']
+        ordering = ['order']
         verbose_name = _('Category')
         verbose_name_plural = _('Categories')
 

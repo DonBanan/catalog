@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django_summernote',
 
     'apps.catalogs',
+    'apps.sliders',
 ]
 
 MIDDLEWARE = [
